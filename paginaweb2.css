@@ -1,0 +1,269 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.986);
+    z-index: 3;
+}
+
+
+
+.text-cajita {
+    position:fixed;
+    z-index: 2;
+    top: 0vw;
+    left: 0vw;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+background-color: rgb(0, 0, 0);
+height: 5vw;
+width: 100%;}
+
+.letras {
+font-size: 3vw;
+color: rgb(241, 238, 40);
+padding: 1px;
+text-align: start;
+margin-top: 1vw;
+}
+
+.buscador {
+    position: absolute;
+    left: 50vw;
+    top: 0;
+    width: 30vw;
+    height: 3vw;
+    border-style: solid;
+    border-radius: 0%;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    margin-top: 0.7vw;
+    font-size: 1.3vw;
+    
+}
+
+.boton-buscar {
+    position: absolute;
+    left: 82vw;
+    top: 0vw;
+    width: 10vw;
+    height: 3vw;
+    border-style: solid;
+    border-radius: 0%;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    margin-top: 1vw;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 224, 37);
+}
+
+.caja-titulo {
+position: relative;
+top: 10vw;
+left: 1%;
+}
+
+.titulo {
+text-align: center;
+font-size: 5vw;
+font-family: monospace;
+color: rgb(0, 0, 0);
+
+
+}
+hr{color: none;}
+
+.caja-botones {
+position: absolute;
+border-width: 1px;
+border-radius: 1vw;
+border-color: rgb(0, 0, 0);
+border-style: solid;
+margin-top: 24vw;
+height: 10vw;
+width:93vw;
+top: 0vw;
+background-color: rgba(0, 0, 0, 0.705);
+}
+
+.boton-1 {
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-radius: 1vw;
+    border-style: solid;
+    height: 6vw;
+    width: 25vw;
+    margin: 2vw;
+    position: absolute;
+    left: 1vw;
+    font-size: 3vw;
+    font-family: cursive;
+    
+}
+
+.boton-2 {
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-radius: 1vw;
+    border-style: solid;
+    height: 6vw;
+    width: 25vw;
+    margin: 2vw;
+    position: absolute;
+    left: 32vw;
+    font-size: 3vw;
+    font-family: cursive;
+    
+}
+.boton-3 {
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-radius: 1vw;
+    border-style: solid;
+    height: 6vw;
+    width: 25vw;
+    margin: 2vw;
+    position: absolute;
+    left: 63vw;
+    font-size: 3vw;
+    font-family: cursive;
+    
+}
+
+.pregunta-1 {
+    border-width: 2px;
+    border-radius: 4vw;
+    border-style: solid;
+    width: 40vw;
+    height: 50vw;
+    position: absolute;
+    left: 5vw;
+    top: 40vw;
+}
+
+.pregunta-2 {
+    border-width: 2px;
+    border-radius: 4vw;
+    border-style: solid;
+    width: 40vw;
+    height: 50vw;
+    left: 52vw;
+    top: 40vw;
+    position: absolute;
+}
+
+.pregunta-3 {
+    border-width: 2px;
+    border-radius: 4vw;
+    border-style: solid;
+    width: 40vw;
+    height: 50vw;
+    left: 5vw;
+    top: 98vw;
+    position: absolute;
+}
+
+.pregunta-4 {
+    border-width: 2px;
+    border-radius: 4vw;
+    border-style: solid;
+    width: 40vw;
+    height: 50vw;
+    left: 52vw;
+    top: 98vw ;
+    position: absolute;
+}
+
+.preguntas {
+    text-align: center;
+    color: rgb(0, 17, 255);
+    font-size: 3.3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.texto {
+    text-align: center;
+    font-size: 2.3vw;
+    font-family: cursive;
+    color: rgba(0, 0, 0, 0.877);
+}
+
+#titulo-img {
+    
+    position: absolute;
+    font-size: 4vw;
+    top: 150vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#caja-img {
+    width: 90vw;
+    height: 80vw;
+    position: relative;
+    margin: 3vw;
+    top: 144vw;
+}
+
+.img-1 {
+    border-radius: 50%;
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    margin: 6vw;
+    left: 0vw;
+    top: 0vw;
+}
+
+.img-2 {
+    border-radius: 50%;
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    margin: 6vw 6vw 6vw 6vw;
+    left: 48vw;
+    top: 0vw;
+}
+
+.img-3 {
+    border-radius: 50%;
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    margin: 6vw;
+    left: 0vw;
+    top: 38vw;
+}
+
+.img-4 {
+    border-radius: 50%;
+    width: 30vw;
+    height: 30vw;
+    position: absolute;
+    margin: 6vw;
+    left: 48vw;
+    top: 38vw;
+}
+
+footer {
+background-color: rgb(0, 0, 0);
+position: absolute;
+top: 250vw;
+left: 0vw;
+width: 100%;
+height: 10vw;
+}
+.redes-sociales {
+    height: 4vw;
+    width: 4vw;
+    display: inline-block;
+}
+
+.distancia {
+    position: absolute;
+    top: 3vw;
+    left: 70vw;
+}
+.fecha-nombre {
+    font-size: 3vw;
+    color: white;
+}

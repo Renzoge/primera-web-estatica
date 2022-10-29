@@ -1,0 +1,73 @@
+body {
+  background-color: none;
+  background-image: url(imagenes/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.titulo{
+  text-align: center;
+  font-family: 'Bungee Spice', cursive;
+  font-size: 5vw;
+  
+  
+  
+  }
+
+
+p {
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  font-size: 15px;
+  margin: 1px;
+  
+}
+.cajita {
+  margin: 20px 20px 20px 60px;
+  border-radius: 20px;
+  height: 20px;
+}
+
+.boton {
+  margin: 20px 20px 20px 60px;
+  width: 180px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: rgb(240, 152, 0)
+}
+
+
+.formulario {
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 60px 1px;
+  width: 300px;
+  height: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+  }
+
+  .footer {
+    position: absolute;
+    top: 46vw;
+    left: 0%;
+    z-index: 1;
+    
+  }
+
+  .nombre {
+    font-size: 1vw;
+
+  }
+
+
+
+
+
+
